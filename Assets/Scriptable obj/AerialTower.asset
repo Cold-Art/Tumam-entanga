@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bc07cafbcd2434a99805106484ca1f, type: 3}
+  m_Name: AerialTower
+  m_EditorClassIdentifier: 
+  towerName: Tower
+  timeBetweenShoots: 0.1
+  range: 6
+  damage: 12
+  type: 1
+  towerPrefab: {fileID: 2598627606084040379, guid: 905f6487c5f8b844286090ac6db6e148,
+    type: 3}
+  bulletPrefab: {fileID: 3404159925931304558, guid: 093426d94cb28a645a28fe37869eb811,
+    type: 3}
+  evolutions: []
